@@ -8,3 +8,4 @@
 3. Check: `curl http://localhost:8000`
 # CI/CD:
 1. `.github/workflows/docker-image.yml`
+2. Check: [https://github.com/m0zart89/sam/actions](https://github.com/m0zart89/sam/actions)

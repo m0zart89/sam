@@ -1,7 +1,7 @@
 FROM python:3.8
 
 ARG SRC_DIR=/usr/bin/src/webapp/src
-COPY service.py ${SRC_DIR}/
+COPY ./service.py ${SRC_DIR}/
 WORKDIR ${SRC_DIR}
 
 ENV PYTHONUNBUFFERED=1
